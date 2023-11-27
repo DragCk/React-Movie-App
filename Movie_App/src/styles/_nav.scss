@@ -1,0 +1,28 @@
+nav {
+  border: 2px solid green;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  ul {
+    background-color: red;
+    border: 2px solid lightcoral;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    li {
+      background-color: red;
+      border: 2px solid lightblue;
+      padding: 2px;
+      margin: 2px;
+      a {
+        color: yellow;
+        font-size: 2rem;
+        background-color: transparent;
+        text-decoration: none; /* 删除下划线 */
+        outline: none; /* 删除链接被点击后的黑点 */
+        border: none;
+      }
+    }
+  }
+}

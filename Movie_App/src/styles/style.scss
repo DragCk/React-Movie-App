@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p {
+  color: white;
+  text-decoration: none;
+}
+
+.all_page {
+  border: 1px solid white;
+}
+.homepage {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@import "./nav";
+@import "./movieInfo";
+@import "./footer";
+@import "./search";
